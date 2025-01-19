@@ -10,11 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <!--Jquery-->
+
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <title>Joel Troncoso</title>
     <!--Google Font-->
@@ -23,12 +21,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <!--Icons-->
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <script src="https://kit.fontawesome.com/99d4a30b9b.js" crossorigin="anonymous"></script>
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
+
+
 
 
 </head>
@@ -74,11 +76,13 @@
     </section>
     <section>
         <!--Nav Bar-->
-        <!--<nav class="navbar navbar-expand-lg text fixed-top" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg text fixed-top" data-bs-theme="dark">
             <div class="container-fluid">
                 <div class="contenedor">
                     <a class="navbar-brand etiqueta-i" href="#">
-                        <div class="img-fluid"><img class="img-fluid" src="" alt=""></div>
+                        <div class="img-fluid">
+                            <img class="img-fluid" src="" alt="">
+                        </div>
                         <h2 class="header"><i>Joel Troncoso</i></h2>
                     </a>
                 </div>
@@ -92,28 +96,27 @@
                             <a class="nav-link active items" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link items" href="#">Destacados</a>
+                            <a class="nav-link items" id="openModalBtn">Contacto</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link items" href="#">Contacto</a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
-        </nav>-->
+        </nav>
 
     </section>
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md">
+                <div class="col-md-12">
                     <div class="info">
                         <img src="/img1.png" alt="">
                         <div class="container-box">
                             <h1>Joel Troncoso</h1>
                         </div>
                         <div class="container-box">
-                            <h3>Desarrollador Full Stack JavaScript Trainee</h3>
+                            <h3>Analista en Sistemas y Programador</h3>
+
                         </div>
                     </div>
 
@@ -130,15 +133,17 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md">
+                <div class="col-md-12">
                     <div class="buttons">
-                        <a href="https://github.com/" target="_blank" class="link-btn">
+                        <a href="https://github.com/j00009" target="_blank" class="link-btn"> <!--git hub-->
                             <div class="circle">
                                 <i class="devicon-github-original colored"></i>
                                 </i>
                             </div>
                         </a>
-                        <a href="#" class="link-btn">
+                        <a href="https://www.linkedin.com/in/joel-troncoso/" target="_blank"
+                            class="link-btn"><!--linkedin-->
+
                             <div class="circle">
                                 <svg viewBox="0 0 128 128" width="20px" height="20px">
                                     <path
@@ -147,9 +152,13 @@
                                 </svg>
                             </div>
                         </a>
-                        <a href="">
+                        <a href="/CV_Joel_Troncoso.pdf" class="link-btn" download>
                             <div class="circle">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"  width="20px" height="20px"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20px"
+                                    height="20px">
+                                    <path
+                                        d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128z" />
+                                </svg>
                             </div>
                         </a>
                     </div>
@@ -158,13 +167,13 @@
         </div>
     </section>
 
-    <!--Pic-->
+    <!--Bio-->
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="custom-container">
-                    <div class="col-md-12">
-                        <div class="box-pic">
+                <div class="col-md-12">
+                    <div class="custom-container">
+                        <div class="bio-box">
                             <h1>Quien soy?</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -175,7 +184,7 @@
 
                             </p>
                         </div>
-                        <div class="box-pic">
+                        <div class="bio-box">
                             <h1>Habilidades Primarias</h1>
                             <div class="stack">
                                 <div class="stack-box">
@@ -306,7 +315,7 @@
 
 
                         </div>
-                        <div class=" box-pic">
+                        <div class=" bio-box">
                             <h1>Habilidades secundarias</h1>
                             <div class="stack">
                                 <div class="stack-box">
@@ -334,17 +343,6 @@
                                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />
                                 </div>
 
-                                <div class="stack-box">
-                                    <i class="devicon-mongodb-plain-wordmark colored" style="font-size: 70px;"></i>
-                                </div>
-
-                                <div class="stack-box">
-                                    <i class="devicon-mongoose-original-wordmark colored" style="font-size: 70px;"></i>
-                                </div>
-
-                                <div class="stack-box">
-                                    <i class="devicon-sqlite-plain-wordmark colored" style="font-size: 70px;"></i>
-                                </div>
                             </div>
                         </div>
 
@@ -355,6 +353,352 @@
             </div>
         </div>
     </section>
+    <!--Proyect-->
+    <section>
+        <div class="container-fluid px-0">
+            <div class="row gx-0">
+                <div class="col-md-12">
+                    <div class="pro-box">
+                        <h1>Proyectos</h1>
+                        <div class="card-container">
+                            <div class="card" style="width: 18rem;">
+                                <img src="cargando.gif" class="card-img-top preview-image" alt="Previsualización">
+                                <div class="card-body">
+                                    <h5 class="card-title">Skate Park</h5>
+                                    <p class="card-text">Aplicación Node.js con CRUD completo, autenticación JWT y
+                                        vistas dinámicas en Handlebars, utilizando un diseño base con layouts.</p>
+                                </div>
+                                <div class="card-body">
+
+                                    <a href="https://www.youtube.com/" class="card-link" target="_blank"
+                                        style="text-decoration: none; color: inherit;">Ir al
+                                        proyecto</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="cargando.gif" class="card-img-top preview-image" alt="Previsualización">
+                                <div class="card-body">
+                                    <h5 class="card-title">Banco Solar</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+
+                                <div class="card-body">
+                                    <a href="https://www.youtube.com/" class="card-link" target="_blank"
+                                        style="text-decoration: none; color: inherit;">Ir al
+                                        proyecto</a>
+
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="cargando.gif" class="card-img-top preview-image" alt="Previsualización">
+                                <div class="card-body">
+                                    <h5 class="card-title">Super Hero API</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://www.youtube.com/" class="card-link" target="_blank"
+                                        style="text-decoration: none; color: inherit;">Ir al
+                                        proyecto</a>
+
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="cargando.gif" class="card-img-top preview-image" alt="Previsualización">
+                                <div class="card-body">
+                                    <h5 class="card-title">Super Hero API</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://www.youtube.com/" class="card-link" target="_blank"
+                                        style="text-decoration: none; color: inherit;">Ir al
+                                        proyecto</a>
+
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="cargando.gif" class="card-img-top preview-image" alt="Previsualización">
+                                <div class="card-body">
+                                    <h5 class="card-title">Super Hero API</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-body">
+                                    <a href="https://www.youtube.com/" class="card-link" target="_blank"
+                                        style="text-decoration: none; color: inherit;">Ir al
+                                        proyecto</a>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Linea de estudios-->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="custom-container">
+                        <div class="pro-box">
+                            <h1>educación relevante</h1>
+                            <div class="place-holder"></div>
+                            <div class="educacion-container" style="margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; padding-top: 0px;">
+
+                                <div class="conex">
+                                    <div class="frame">
+                                        <i class="fa-solid fa-user-graduate"></i>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="text-edu">
+                                    <h5>CFT San Agustin</h1>
+
+                                        <p><a href="/certificado_de_titulo.pdf" target="_blank" download style="text-decoration: none; color: inherit;"><i
+                                                    class="fa-solid fa-download" style="color: aliceblue;"></i>  Técnico
+                                                    Superior en Análisis de Sistemas y Programación</a></p>
+                                </div>
+                                <div class="date-edu">
+                                    <br>
+                                    <p>2020 - 2022</p>
+                                </div>
+
+                            </div>
+                            <div class="educacion-container" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px; padding-bottom: 0px; ">
+                                <div class="no-conex">
+                                    <div class="frame">
+                                        <i class="fa-solid fa-user-graduate"></i>
+                                    </div>
+                                </div>
+                                <div class="text-edu">
+                                    <h5>Desafío Latam</h1>
+                                        <p><a href="https://desafiosdev.s3.amazonaws.com/uploads/certification/image/592/aprobacion-final-td8-g69-m10-desarrollo-de-aplicaciones-full-stack-javascript-trainee-v2-0-desarrollo-de-empleabilidad-en-la-industria-digital-ele030783068114-503(2).png"
+                                                target="_blank" style="text-decoration: none; color: inherit;"><i class="fa-solid fa-link"></i>  Desarrollador Full Stack JavaScript Trainee</a>
+                                        </p>
+
+                                        <p><a href="https://www.acreditta.com/credential/006075ef-9a25-4bd8-9549-82f31fc6654d?utm_source=copy&resource_type=badge&resource=006075ef-9a25-4bd8-9549-82f31fc6654d"
+                                                target="_blank" style="text-decoration: none; color: inherit;">
+                                                <i class="fa-solid fa-link"></i>  bootcamp desarrollo de aplicaciones
+                                                full stack javascript trainee</a>
+                                        </p>
+                                </div>
+                                <div class="date-edu">
+                                    <br>
+                                    <p>2024 - 2024</p>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--modal contact-->
+    <section>
+        <div class="custom-modal modal fade" id="modalPC" tabindex="-1" aria-labelledby="modalPCLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="modal-contact">
+                            <div class="modal-side">
+                                <div class="container">
+                                    <div id="container1" class="message-container1"></div>
+                                    <div id="container2" class="message-container2"></div>
+                                    <div id="container3" class="gradient-shadow-text" data-bs-toggle="tooltip"
+                                        data-bs-title="Presiona para copiar el correo"></div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="custom-container">
+                                            <div class="contact-content-modal">
+                                                <form id="contact-form-modal">
+                                                    <h1>Contáctame</h1>
+
+                                                    <div class="mb-3">
+                                                        <label for="name-modal" class="form-label">Nombre u
+                                                            organización:</label>
+                                                        <input type="text" id="name-modal" name="name"
+                                                            class="form-control" required>
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <label for="email-modal" class="form-label">Correo
+                                                            Electrónico:</label>
+                                                        <input type="email" id="email-modal" name="email"
+                                                            class="form-control" required>
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <label for="message-modal" class="form-label">Mensaje:</label>
+                                                        <textarea id="message-modal" name="message" class="form-control"
+                                                            required></textarea>
+                                                    </div>
+
+                                                    <button type="submit" class="btn btn-primary"
+                                                        style="background-color: #4fc3dc; color: aliceblue;">
+                                                        Enviar
+                                                    </button>
+                                                </form>
+
+                                                <div id="response-message-modal" class="mt-3"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal Mobile-->
+        <div class="custom-modal modal fade" id="modalMobile" tabindex="-1" aria-labelledby="modalMobileLabel"
+            aria-hidden="true">
+
+            <div class="modal-dialog modal-sm">
+
+                <div class="modal-content">
+                    <div class="modal-contact">
+                        <div class="modal-body">
+                            <div class="mobile-container">
+                                <div id="typetextMobile1" class="typing1"></div>
+                                <div id="typetextMobile2" class="gradient-shadow-text"></div></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Contacto-->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="custom-container">
+                        <div class="pro-box">
+                            <h1>Contacto</h1>
+                        </div>
+                        <div class="contact">
+                            <div class="contact-info">
+                                <h1>Mis datos:</h1>
+                                <p>Si tienes dudas y/o consultas, te respondere con todo gusto y a la brevedad, no dudes
+                                    en contactarme!!</p>
+                                <p><i class="fa-solid fa-map-pin"></i> Talca/Chile</p>
+                                <p><i class="fa-regular fa-envelope"></i> Joeltroncoso2002@gmail.com</p>
+                                <p><i class="fa-brands fa-whatsapp"></i><a
+                                        href="https://wa.me/56956024439?text=Hola%20me%20gustaría%20saber%20más%20sobre%20tus%20servicios"
+                                        target="_blank" style="text-decoration: none; color: inherit;">
+                                        Enviar Mensaje a +56 9 5602 4439
+                                    </a></p>
+
+
+
+                            </div>
+                            <div class="contact-container">
+                                <h1>Contáctame</h1>
+                                <div class="form-container">
+                                    <form id="contact-form">
+
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">Nombre u organizacion:</label>
+                                            <input type="text" id="name" name="name" class="form-control" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Correo Electrónico:</label>
+                                            <input type="email" id="email" name="email" class="form-control" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message" class="form-label">Mensaje:</label>
+                                            <textarea id="message" name="message" class="form-control"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary"
+                                            style="border-color: #4fc3dc; background-color: #4fc3dc; color: aliceblue;">Enviar</button>
+                                    </form>
+                                </div>
+                                <div id="response-message" class="mt-3"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+
+    <!--modal datos succes-->
+    <section>
+        <div class="modal fade" id="exampleModalSucces" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" style="all: unset;">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Datos recepcionados correctamente
+                    </div>
+                    <div class="modal-footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <section>
+        <div class="footer-placeholder"></div>
+        <footer>
+            <div class="container-footer">
+                <div style="margin: 10px;">
+                    <a href="https://github.com/j00009" target="_blank"
+                        style="text-decoration: none; color: inherit; margin: 10px;">
+                        <i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href="https://www.linkedin.com/in/joel-troncoso/" target="_blank"
+                        style="text-decoration: none; color: inherit; margin: 10px;"><i
+                            class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <a href="https://wa.me/56956024439?text=Hola%20me%20gustaría%20saber%20más%20sobre%20tus%20servicios"
+                        target="_blank" style="text-decoration: none; color: inherit; margin: 10px;"><i
+                            class="fa-brands fa-whatsapp fa-2xl"></i></a>
+                </div>
+                <p>Portafolio Web de Joel Troncoso</p>
+
+            </div>
+
+
+        </footer>
+    </section>
+
 </body>
+<script src="js/script.js"></script>
 
 </html>
